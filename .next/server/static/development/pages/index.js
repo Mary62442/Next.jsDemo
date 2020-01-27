@@ -1875,17 +1875,21 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\diegomary\\Desktop\\next-demo\\pages\\index.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  //next/link does all the location.history handling for you
+
 
 
  // Basic dynamic routing
@@ -1901,76 +1905,90 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // History Awareness: dynamic routing works pretty nicely with the browser history
 
 const PostLink = props => __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/p/[id]",
-  as: `/p/${props.id}`,
+  className: "jsx-224805447",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
   },
   __self: undefined
-}, __jsx("a", {
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  href: "/p/[id]",
+  as: `/p/${props.id}`,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
   },
   __self: undefined
-}, props.name)));
+}, __jsx("a", {
+  className: "jsx-224805447",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, props.name)), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "224805447",
+  __self: undefined
+}, "li.jsx-224805447{list-style-type:none;margin:5px 0;}a.jsx-224805447{-webkit-text-decoration:none;text-decoration:none;color:blue;font-family:'Arial';}a.jsx-224805447:hover{opacity:0.6;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcZGllZ29tYXJ5XFxEZXNrdG9wXFxuZXh0LWRlbW9cXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQmdCLEFBR2tDLEFBS0EsQUFNVCxZQUNoQixTQVhpQixhQUNqQixnQkFJZSxXQUNTLG9CQUN4QiIsImZpbGUiOiJDOlxcVXNlcnNcXGRpZWdvbWFyeVxcRGVza3RvcFxcbmV4dC1kZW1vXFxwYWdlc1xcaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7IC8vbmV4dC9saW5rIGRvZXMgYWxsIHRoZSBsb2NhdGlvbi5oaXN0b3J5IGhhbmRsaW5nIGZvciB5b3VcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0JztcclxuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCc7XHJcbmltcG9ydCB7dXNlU3RhdGUsIHVzZUVmZmVjdH0gZnJvbSBcInJlYWN0XCI7XHJcblxyXG4vLyBCYXNpYyBkeW5hbWljIHJvdXRpbmdcclxuLyogY29uc3QgUG9zdExpbmsgPSBwcm9wcyA9PiAoXHJcbiAgICA8bGk+XHJcbiAgICAgIDxMaW5rIGhyZWY9e2AvcG9zdDE/dGl0bGU9JHtwcm9wcy50aXRsZX1gfT5cclxuICAgICAgICA8YT57cHJvcHMudGl0bGV9PC9hPlxyXG4gICAgICA8L0xpbms+XHJcbiAgICA8L2xpPlxyXG4pOyAqL1xyXG5cclxuLy8gQ2xlYW4gVVJMIGR5bmFtaWMgcm91dGluZ1xyXG4vLyBIaXN0b3J5IEF3YXJlbmVzczogZHluYW1pYyByb3V0aW5nIHdvcmtzIHByZXR0eSBuaWNlbHkgd2l0aCB0aGUgYnJvd3NlciBoaXN0b3J5XHJcbmNvbnN0IFBvc3RMaW5rID0gcHJvcHMgPT4gKFxyXG4gIDxsaT5cclxuICAgIDxMaW5rIGhyZWY9XCIvcC9baWRdXCIgYXM9e2AvcC8ke3Byb3BzLmlkfWB9PlxyXG4gICAgICA8YT57cHJvcHMubmFtZX08L2E+XHJcbiAgICA8L0xpbms+XHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgbGkge1xyXG4gICAgICAgICAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgICAgICAgICAgIG1hcmdpbjogNXB4IDA7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBhIHtcclxuICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgICBjb2xvcjogYmx1ZTtcclxuICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICBhOmhvdmVyIHtcclxuICAgICAgICAgICAgb3BhY2l0eTogMC42O1xyXG4gICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgPC9saT4gIFxyXG4pO1xyXG5cclxuY29uc3QgQXBwID0gKHByb3BzKSA9PiB7ICAgXHJcbiAgICBcclxuICAgIHJldHVybiAoICAgIFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8TGF5b3V0PlxyXG4gICAgICAgICAgICA8aDE+SGVsbG8gV29ybGQ8L2gxPiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8cD5IZWxsbyBldmVyeW9uZSwgdGhpcyBpcyB0ZXh0IGluIGEgcGFyYWdyYXBoIHRhZyB0aGF0IGlzIHJlbmRlcmVkIGluIHRoZSBwYWdlIHNvdXJjZSE8L3A+ICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxoMT5CYXRtYW4gVFYgU2hvd3M8L2gxPlxyXG4gICAgICAgICAgICA8dWw+XHJcbiAgICAgICAgICAgIHtwcm9wcy5zaG93cy5tYXAoc2hvdyA9PiAoXHJcbiAgICAgICAgICAgICAgICA8UG9zdExpbmsga2V5PXtzaG93LmlkfSBpZD17c2hvdy5pZH0gbmFtZT17c2hvdy5uYW1lfSAvPiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgKSl9XHJcbiAgICAgICAgICAgIDwvdWw+XHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgaDEsXHJcbiAgICAgICAgICAgIHAge1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0FyaWFsJztcclxuICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgdWwge1xyXG4gICAgICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L0xheW91dD5cclxuICAgIDwvZGl2PlxyXG4pfTtcclxuXHJcbkFwcC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyBmdW5jdGlvbigpIHtcclxuICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCdodHRwczovL2FwaS50dm1hemUuY29tL3NlYXJjaC9zaG93cz9xPWJhdG1hbicpO1xyXG4gICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcy5qc29uKCk7XHJcbiAgXHJcbiAgICBjb25zb2xlLmxvZyhgU2hvdyBkYXRhIGZldGNoZWQuIENvdW50OiAke2RhdGEubGVuZ3RofWApO1xyXG4gIFxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgc2hvd3M6IGRhdGEubWFwKGVudHJ5ID0+IGVudHJ5LnNob3cpXHJcbiAgICB9O1xyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgQXBwOyJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\diegomary\\\\Desktop\\\\next-demo\\\\pages\\\\index.js */"));
 
-const App = props => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-}, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
-}, __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "Hello World"), __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 28
-  },
-  __self: undefined
-}, "Hello everywone, this is text in a paragraph tag that is rendered in the page source!"), __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 29
-  },
-  __self: undefined
-}, "Batman TV Shows"), __jsx("ul", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 30
-  },
-  __self: undefined
-}, props.shows.map(show => __jsx(PostLink, {
-  key: show.id,
-  id: show.id,
-  name: show.name,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 32
-  },
-  __self: undefined
-})))));
+const App = props => {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: undefined
+  }, __jsx(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  }, __jsx("h1", {
+    className: "jsx-4092133034",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: undefined
+  }, "Hello World"), __jsx("p", {
+    className: "jsx-4092133034",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: undefined
+  }, "Hello everyone, this is text in a paragraph tag that is rendered in the page source!"), __jsx("h1", {
+    className: "jsx-4092133034",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: undefined
+  }, "Batman TV Shows"), __jsx("ul", {
+    className: "jsx-4092133034",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: undefined
+  }, props.shows.map(show => __jsx(PostLink, {
+    key: show.id,
+    id: show.id,
+    name: show.name,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: undefined
+  }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "4092133034",
+    __self: undefined
+  }, "h1.jsx-4092133034,p.jsx-4092133034{font-family:'Arial';}ul.jsx-4092133034{padding:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcZGllZ29tYXJ5XFxEZXNrdG9wXFxuZXh0LWRlbW9cXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxRHdCLEFBSWlDLEFBSVYsVUFDVixVQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcZGllZ29tYXJ5XFxEZXNrdG9wXFxuZXh0LWRlbW9cXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjsgLy9uZXh0L2xpbmsgZG9lcyBhbGwgdGhlIGxvY2F0aW9uLmhpc3RvcnkgaGFuZGxpbmcgZm9yIHlvdVxyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQnO1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcclxuaW1wb3J0IHt1c2VTdGF0ZSwgdXNlRWZmZWN0fSBmcm9tIFwicmVhY3RcIjtcclxuXHJcbi8vIEJhc2ljIGR5bmFtaWMgcm91dGluZ1xyXG4vKiBjb25zdCBQb3N0TGluayA9IHByb3BzID0+IChcclxuICAgIDxsaT5cclxuICAgICAgPExpbmsgaHJlZj17YC9wb3N0MT90aXRsZT0ke3Byb3BzLnRpdGxlfWB9PlxyXG4gICAgICAgIDxhPntwcm9wcy50aXRsZX08L2E+XHJcbiAgICAgIDwvTGluaz5cclxuICAgIDwvbGk+XHJcbik7ICovXHJcblxyXG4vLyBDbGVhbiBVUkwgZHluYW1pYyByb3V0aW5nXHJcbi8vIEhpc3RvcnkgQXdhcmVuZXNzOiBkeW5hbWljIHJvdXRpbmcgd29ya3MgcHJldHR5IG5pY2VseSB3aXRoIHRoZSBicm93c2VyIGhpc3RvcnlcclxuY29uc3QgUG9zdExpbmsgPSBwcm9wcyA9PiAoXHJcbiAgPGxpPlxyXG4gICAgPExpbmsgaHJlZj1cIi9wL1tpZF1cIiBhcz17YC9wLyR7cHJvcHMuaWR9YH0+XHJcbiAgICAgIDxhPntwcm9wcy5uYW1lfTwvYT5cclxuICAgIDwvTGluaz5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBsaSB7XHJcbiAgICAgICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgICAgICAgICAgbWFyZ2luOiA1cHggMDtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICAgIGNvbG9yOiBibHVlO1xyXG4gICAgICAgICAgICBmb250LWZhbWlseTogJ0FyaWFsJztcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGE6aG92ZXIge1xyXG4gICAgICAgICAgICBvcGFjaXR5OiAwLjY7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICA8L2xpPiAgXHJcbik7XHJcblxyXG5jb25zdCBBcHAgPSAocHJvcHMpID0+IHsgICBcclxuICAgIFxyXG4gICAgcmV0dXJuICggICAgXHJcbiAgICA8ZGl2PlxyXG4gICAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgICAgIDxoMT5IZWxsbyBXb3JsZDwvaDE+ICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxwPkhlbGxvIGV2ZXJ5b25lLCB0aGlzIGlzIHRleHQgaW4gYSBwYXJhZ3JhcGggdGFnIHRoYXQgaXMgcmVuZGVyZWQgaW4gdGhlIHBhZ2Ugc291cmNlITwvcD4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPGgxPkJhdG1hbiBUViBTaG93czwvaDE+XHJcbiAgICAgICAgICAgIDx1bD5cclxuICAgICAgICAgICAge3Byb3BzLnNob3dzLm1hcChzaG93ID0+IChcclxuICAgICAgICAgICAgICAgIDxQb3N0TGluayBrZXk9e3Nob3cuaWR9IGlkPXtzaG93LmlkfSBuYW1lPXtzaG93Lm5hbWV9IC8+ICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICApKX1cclxuICAgICAgICAgICAgPC91bD5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICBoMSxcclxuICAgICAgICAgICAgcCB7XHJcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnQXJpYWwnO1xyXG4gICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICB1bCB7XHJcbiAgICAgICAgICAgIHBhZGRpbmc6IDA7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG4gICAgPC9kaXY+XHJcbil9O1xyXG5cclxuQXBwLmdldEluaXRpYWxQcm9wcyA9IGFzeW5jIGZ1bmN0aW9uKCkge1xyXG4gICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goJ2h0dHBzOi8vYXBpLnR2bWF6ZS5jb20vc2VhcmNoL3Nob3dzP3E9YmF0bWFuJyk7XHJcbiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTtcclxuICBcclxuICAgIGNvbnNvbGUubG9nKGBTaG93IGRhdGEgZmV0Y2hlZC4gQ291bnQ6ICR7ZGF0YS5sZW5ndGh9YCk7XHJcbiAgXHJcbiAgICByZXR1cm4ge1xyXG4gICAgICBzaG93czogZGF0YS5tYXAoZW50cnkgPT4gZW50cnkuc2hvdylcclxuICAgIH07XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBBcHA7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\diegomary\\\\Desktop\\\\next-demo\\\\pages\\\\index.js */")));
+};
 
 App.getInitialProps = async function () {
-  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()('https://api.tvmaze.com/search/shows?q=batman');
+  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default()('https://api.tvmaze.com/search/shows?q=batman');
   const data = await res.json();
   console.log(`Show data fetched. Count: ${data.length}`);
   return {
@@ -2101,6 +2119,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 

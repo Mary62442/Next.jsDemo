@@ -1,6 +1,7 @@
 import Link from "next/link"; //next/link does all the location.history handling for you
 import Layout from '../components/MyLayout';
 import fetch from 'isomorphic-unfetch';
+import {useState, useEffect} from "react";
 
 // Basic dynamic routing
 /* const PostLink = props => (
@@ -18,23 +19,52 @@ const PostLink = props => (
     <Link href="/p/[id]" as={`/p/${props.id}`}>
       <a>{props.name}</a>
     </Link>
-  </li>
+    <style jsx>{`
+        li {
+            list-style-type: none;
+            margin: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            font-family: 'Arial';
+        }
+
+        a:hover {
+            opacity: 0.6;
+        }
+        `}</style>
+  </li>  
 );
 
-const App = (props) => (
+const App = (props) => {   
+    
+    return (    
     <div>
         <Layout>
-            <h1>Hello World</h1>
-            <p>Hello everywone, this is text in a paragraph tag that is rendered in the page source!</p>            
+            <h1>Hello World</h1>            
+            <p>Hello everyone, this is text in a paragraph tag that is rendered in the page source!</p>            
             <h1>Batman TV Shows</h1>
             <ul>
             {props.shows.map(show => (
                 <PostLink key={show.id} id={show.id} name={show.name} />                
             ))}
             </ul>
+            <style jsx>{`
+            h1,
+            p {
+            font-family: 'Arial';
+            }
+
+            ul {
+            padding: 0;
+            }
+            
+        `}</style>
         </Layout>
     </div>
-);
+)};
 
 App.getInitialProps = async function() {
     const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
